@@ -53,15 +53,16 @@ Purchase:
 			<div class="blog_main_menu_innerdiv">
 				<ul>
 					<li class="active"><a href="index.html">Home</a></li>
-					<li><a href="politics.html">About</a></li>
-					<li><a href="world.html">Gallery</a></li>
-					<li><a href="technology.html">Newsletter</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#gallery">Gallery</a></li>
+               <li><a href="#newsletter">Newsletter</a></li>
+               <li><a href="#contact">Contact</a></li>
 
 				</ul>
 			</div>
 		</div>
 	</div>
-	<div class="blog_banner_slider wrapper">
+	<div id="home" class="blog_banner_slider wrapper">
 		<div class="swiper-container gallery-top">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide">
@@ -394,7 +395,7 @@ Purchase:
 			</div>
 		</div>
 	</div>
-   <div class="blog_main_wrapper blog_toppadder60 blog_bottompadder60">
+   <div id="about" class="blog_main_wrapper blog_toppadder60 blog_bottompadder60">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-12">
@@ -418,7 +419,7 @@ How the Post was formed and a Post photo is pending.</p>
 			</div>
 		</div>
 	</div>
-	<div class="blog_main_wrapper blog_toppadder60 blog_bottompadder60">
+	<div id="newsletter" class="blog_main_wrapper blog_toppadder60 blog_bottompadder60">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-9 col-md-12 col-sm-12 col-12">
@@ -481,7 +482,15 @@ How the Post was formed and a Post photo is pending.</p>
                         </div>
                      </div>
                   </div>
-                  <div class="blog_fullwidth_multislide_slider">
+
+                  <div id="gallery" class="blog_fullwidth_multislide_slider">
+                     <div class="blog_main_heading_div wow fadeInUp">
+                        <div class="blog_heading_div">
+                           <h3 class="blog_bg_darkblue">gallery</h3>
+                        </div>
+                     </div>
+                     <br />
+
                		<div class="swiper-container">
                			<div class="swiper-wrapper">
                				<div class="swiper-slide">
@@ -541,7 +550,53 @@ How the Post was formed and a Post photo is pending.</p>
                                     </div>
                                  </div>
                               </div>
+                              <div id="contact" class="blog_contact_form_div wow fadeInUp">
+                                 <div class="blog_main_heading_div">
+                                    <div class="blog_heading_div">
+                                       <h3 class="blog_bg_lightgreen">Get In Touch</h3>
+                                    </div>
+                                 </div>
+                                 <div class="blog_contact_form_div_inner">
+                                    <h4>Drop A Message</h4>
+                                    <div class="contact_form">
+                                       <div class="row">
+                                          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                             <div class="blog_form_group">
+                                                <input type="text" id="ur_name" class="form-control" placeholder="First Name">
+                                             </div>
+                                          </div>
+                                          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                             <div class="blog_form_group">
+                                                <input type="text" id="ur_mail" class="form-control" placeholder="Email">
+                                             </div>
+                                          </div>
+                                          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                             <div class="blog_form_group">
+                                                <input type="text" id="ur_phone" class="form-control" placeholder="Phone Number">
+                                             </div>
+                                          </div>
+                                          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                             <div class="blog_form_group">
+                                                <input type="text" id="sub" class="form-control" placeholder="Subject">
+                                             </div>
+                                          </div>
+                                          <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                             <div class="blog_form_group">
+                                                <textarea id="msg" class="form-control" placeholder="Message" rows="5"></textarea>
+                                             </div>
+                                          </div>
+                                          <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                             <button id="send_btn" class="blog_btn blog_bg_pink">Submit</button>
+                                             <div id="err"></div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
                		</div>
+
+
+
                      <div class="col-lg-3 col-md-12 col-sm-12 col-12 theiaStickySidebar">
                         <div class="blog_sidebar">
                            <div class="widget widget_social wow fadeInUp">
